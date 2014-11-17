@@ -286,6 +286,12 @@ PS. Current compass `0.12.4` version  doesn't support `--sourcemap` flag, please
 
 **description:** GENERATED_IMAGES_PATH. Support `--generated-images-path` parameter.
 
+#### task
+
+**default:** 'compile'
+
+**description:** allows for running `compass watch`
+
 ## Running tests
 
 ```
