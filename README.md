@@ -1,6 +1,6 @@
 # [gulp](http://gulpjs.com/)-compass
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status](https://travis-ci.org/appleboy/gulp-compass.png?branch=master)](https://travis-ci.org/appleboy/gulp-compass) [![Dependency Status](https://david-dm.org/appleboy/gulp-compass.svg)](https://david-dm.org/appleboy/gulp-compass)
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status](https://travis-ci.org/appleboy/gulp-compass.png?branch=master)](https://travis-ci.org/appleboy/gulp-compass) [![Dependency Status](https://david-dm.org/appleboy/gulp-compass.svg)](https://david-dm.org/appleboy/gulp-compass) [![Coverage Status](https://coveralls.io/repos/appleboy/gulp-compass/badge.svg?branch=master)](https://coveralls.io/r/appleboy/gulp-compass?branch=master)
 
 [![NPM](https://nodei.co/npm/gulp-compass.png?downloads=true&stars=true)](https://nodei.co/npm/gulp-compass/)
 
@@ -288,15 +288,17 @@ PS. Current compass `0.12.4` version  doesn't support `--sourcemap` flag, please
 
 #### task
 
-**default:** 'compile'
+**default:** compile
 
-**description:** allows for running `compass watch`
+**description:** Support compass primary commands: compile or watch. 
+
 
 ## Running tests
 
 ```
 $ gem install compass
 $ gem install susy
+$ gem install sass-globbing
 $ gem install modular-scale
 $ npm test
 ```
